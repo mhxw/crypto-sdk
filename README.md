@@ -1,6 +1,6 @@
 # Crypto-SDK
 
-[English](README_EN.md) | 中文
+中文 | [English](README_EN.md)
 
 Crypto-SDK是针对主流区块链的转账(支持普通原生代币和合约代币，例如BNB、BHP上的合约代币)和查询的js工具。
 
