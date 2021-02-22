@@ -99,7 +99,7 @@ exports = module.exports = {
 
         const signedTx =await  web3.eth.accounts.signTransaction(
              rawTx,
-             '0x'+Buffer.from(Buffer.from(privateKey).toString('hex'), 'hex')
+             privateKey
         );
 
         web3.eth.sendSignedTransaction(signedTx.rawTransaction,  (err, txHash)=> {
