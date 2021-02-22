@@ -1,6 +1,6 @@
 # Crypto-SDK
 
-English | [中文](README_CN.md)
+English | [中文](README.md)
 
 The Crypto-SDK is a js SDK for transfer (receive not only ETH but also any ERC-20 token; the same is true for a BNB address, BHP address, et al.) and query of mainstream blockchain.
 

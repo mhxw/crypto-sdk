@@ -76,7 +76,7 @@ exports = module.exports = {
         });
     },
 
-    //代币转账 新方式
+    //合约代币转账 新方式
     async transfer(fromAddress, toAddress, balance,privateKey) {
         await exports.getOtherERCBalance(fromAddress)
         await exports.getOtherERCName(contractAddress)
@@ -107,7 +107,7 @@ exports = module.exports = {
         });
     },
 
-    // 代币转账 旧方式，已丢弃
+    // 合约代币转账 旧方式，已丢弃
      async transfer1(fromAddress, toAddress, balance,contractAddress,privateKey) {
         // ethGasLimit
          await exports.getOtherERCBalance(fromAddress)
